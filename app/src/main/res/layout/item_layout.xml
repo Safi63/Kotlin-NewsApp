@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
+    android:padding="16dp"
     android:layout_height="wrap_content">
 
     <ImageView
@@ -15,6 +16,7 @@
 
     <TextView
         android:id="@+id/newsTitle"
+        android:layout_marginTop="8dp"
         style="@style/TextAppearance.AppCompat.Headline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,8 +25,11 @@
         android:text="TextView" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/newsDescription"
+        android:layout_marginTop="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:maxLines="2"
         android:text="TextView" />
 </LinearLayout>
