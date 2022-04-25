@@ -1,3 +1,3 @@
 package com.example.newsapp
 
-data class News (val totalResult: Int,val article: List<Article>)
+data class News (val totalResults: Int,val articles: List<Article>)
